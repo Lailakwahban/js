@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(173, 173, 173); align-items: center;text-align: center;padding-top: 20%;">
+    <input type="text" id="taskInp" placeholder="Add your task here" />
+    <button onclick="addTask()">Add </button>
+    <div id="taskList" style="align-items: center; text-align: center; width: 300px; padding-left: 40%; padding-top: 1%;padding-bottom: 1%;"></div>
+
+  <!-- <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>--> 
+
+
+    <table id="dataTable" style="margin-top: 20px; width: 50%; margin-left: auto; margin-right: auto;">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+
+
+ 
+<input type="number" id="databyid" placeholder="">
+<button onclick="getDataById()">Get Post By ID</button>
+
+<p id="title"></p>
+<p id="body"></p>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
